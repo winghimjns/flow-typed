@@ -3,7 +3,7 @@
 declare module 'styled-components' {
 
   declare export type Interpolation =
-                                    | (<P: {}>(executionContext: P) => string)
+                                    | (<P: {}>(executionContext: P) => string | number)
                                     | CSSRules
                                     | KeyFrames
                                     | string
